@@ -2,8 +2,8 @@
 import os, re, csv
 from tqdm import tqdm
 
-IMG_DIR   = "/mnt/mydata/lx/docker_datasets/random_500000_256/shared_500000_256/train"   # 你的原始图片文件夹
-CSV_OUT   = os.path.join(".", "labels.csv")  # 输出路径
+IMG_DIR   = "/mnt/mydata/lx/docker_datasets/random_1000000_256/shared_1000000_256/train"   # 你的原始图片文件夹
+CSV_OUT   = os.path.join(".", "labels_1000000.csv")  # 输出路径
 
 # 支持的后缀
 EXTS = (".jpeg", ".jpg", ".png")
