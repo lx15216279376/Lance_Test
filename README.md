@@ -1,1 +1,5 @@
 # Lance_Test
+test 中包含lance及lancedb的入门代码
+test_lancedb_scalability中包含测试lancedb性能相关代码
+train_CNN 中包含测试lance数据加载器的代码，使用CNN模型
+train_ResNet50 中包含测试lance数据加载器的代码。使用ResNet50模型
